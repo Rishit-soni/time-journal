@@ -1,0 +1,24 @@
+{
+  "name": "Daybook – Time Journal",
+  "short_name": "Daybook",
+  "description": "See where your day goes. Log activities in a tap, get your office leave time, and find free time for learning and freelancing.",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c0e12",
+  "theme_color": "#2f54eb",
+  "categories": ["productivity", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Add time", "short_name": "Add time", "url": "./?action=add", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Check in to office", "short_name": "Check in", "url": "./?action=checkin", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "I'm awake", "short_name": "Awake", "url": "./?action=wake", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Going to sleep", "short_name": "Sleep", "url": "./?action=sleep", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
